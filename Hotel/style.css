@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	height: auto;
+	font-family: monospace;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h1{
+	margin-left: 20px;
+}
+
+.bar{
+	display: flex;
+}
+
+.bar p{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.mainbody{
+	width: 100%;
+	min-height: 90vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	justify-content: space-between;
+}
+
+.inner{
+	margin-left: 50px;
+	font-size: 20px;
+	width: 40%;
+}
+
+.inner button{
+	border-radius: 5px;
+}
+
+.bodyimage{
+	margin-right: 100px;
+}
+
+.bottom{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+}
+
+.menu{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menuheader{
+	width: 60%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.menuitems{
+	display: flex;
+	width: 56%;
+	gap: 30px;
+}
+
+.starters{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.location{
+	margin-top: 10px;
+	width: 60%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.locations{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*.tnagar{
+	width: 50%;
+}
+
+.tambaram{
+	width: 50%;
+}*/
